@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<h1>Artistas</h1>  
+
+<div class="container">
+
+  {% for artista in artistas %}
+
+    <div class="item">
+      <figure>
+        <img src="{{artista.Imagen}}" alt="artista.Nombre" />
+        <h3>{{artista.Nombre}}</h3> 
+      </figure>
+      <ul>
+        <li>Género: {{artista['Género']}}</li>
+        <li>Edad: {{artista.Edad}}</li>
+      </ul>
+      <small><a href="{{artista['Sitio Web']}}">Sitio Web</a></small>
+    </div>  
+    
+  {% endfor %}
+
+</div> 
+
+{% endblock %}

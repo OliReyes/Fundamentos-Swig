@@ -1,0 +1,13 @@
+{
+  "name": "Fundamentos-Swig",
+  "version": "0.0.2",
+  "description": "Conceptos y fundamentos principales del motor de plantillas Swig.",
+  "license": "MIT",
+  "author": "Oliver Reyes <olimitch7@gmail.com> - http://www.olireyes.com",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {}
+}
